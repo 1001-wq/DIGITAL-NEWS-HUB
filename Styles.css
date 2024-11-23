@@ -1,0 +1,126 @@
+/* General Reset */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+/* Articles Section */
+#articles {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.article-list {
+    display: flex;
+    gap: 1rem;
+}
+
+.article-list article {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    flex: 1;
+    text-align: center;
+}
+
+/* Multimedia Section */
+#multimedia {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.media-grid {
+    display: flex;
+    gap: 1rem;
+}
+
+.media-item {
+    flex: 1;
+}
+
+/* Interactive Section */
+#interactive {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+#poll-results {
+    margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+.fa-facebook{
+    font-size: 70px;
+    color: blue;
+}
+.fa-instagram{
+    font-size: 70px;
+    color: darkorchid;
+}
+.fa-youtube{
+    font-size: 70px;
+    color: red;
+}
+.fa-twitter{
+    font-size: 70px;
+    color: lightseagreen;
+}
+.fa-tiktok{
+    font-size: 70px;
+    color: rgb(15, 5, 5);
+}
+.fa-telegram{
+    font-size: 70px;
+    color: rgb(241, 40, 107);
+}
+.fa-whatsapp{
+    font-size: 70px;
+    color: green;
+}
+.fa-magnifying-glass{
+    font-size: 50px;
+    color: red;
+}
+
