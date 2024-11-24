@@ -38,6 +38,14 @@ header nav ul li a {
     background-color: #f4f4f4;
 }
 
+    h3 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
 articles-container {
     display: flex;
     flex-direction: column;
